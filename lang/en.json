@@ -1,0 +1,6 @@
+{
+  "HM3IAC.Settings.Enabled.Name": "Enable Improved Auto-Combat",
+  "HM3IAC.Settings.Enabled.Hint": "Defer automated impact rolls so the striker's owner or a GM can review and edit the dice before rolling.",
+  "HM3IAC.Settings.DebugLogging.Name": "Debug Logging",
+  "HM3IAC.Settings.DebugLogging.Hint": "Write detailed module integration events to the browser console."
+}

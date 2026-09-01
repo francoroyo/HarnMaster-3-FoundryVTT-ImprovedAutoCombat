@@ -1,0 +1,16 @@
+{
+  "name": "hm3-improved-autocombat",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Foundry VTT v14 module extending HarnMaster 3 automated combat.",
+  "scripts": {
+    "test": "node --test --test-concurrency=1",
+    "validate": "node tools/validate-manifest.mjs",
+    "check": "npm run validate && npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

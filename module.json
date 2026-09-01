@@ -1,0 +1,59 @@
+{
+  "id": "hm3-improved-autocombat",
+  "type": "module",
+  "title": "HarnMaster 3: Improved Auto-Combat",
+  "description": "Adds deferred, editable impact rolls to HarnMaster 3 automated combat.",
+  "version": "0.2.0",
+  "authors": [
+    {
+      "name": "francoroyo",
+      "url": "https://github.com/francoroyo"
+    }
+  ],
+  "url": "https://github.com/francoroyo/HarnMaster-3-FoundryVTT-ImprovedAutoCombat",
+  "manifest": "https://github.com/francoroyo/HarnMaster-3-FoundryVTT-ImprovedAutoCombat/releases/latest/download/module.json",
+  "download": "https://github.com/francoroyo/HarnMaster-3-FoundryVTT-ImprovedAutoCombat/releases/download/v0.2.0/hm3-improved-autocombat-v0.2.0.zip",
+  "compatibility": {
+    "minimum": "14.365",
+    "verified": "14.365",
+    "maximum": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "hm3",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/valcorin/HarnMaster-3-FoundryVTT/master/system.json",
+        "compatibility": {
+          "minimum": "1.6.13"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "1.13.5.1"
+        }
+      }
+    ]
+  },
+  "socket": true,
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "styles": [
+    "styles/impact.css"
+  ],
+  "license": "LICENSE",
+  "readme": "README.md"
+}
